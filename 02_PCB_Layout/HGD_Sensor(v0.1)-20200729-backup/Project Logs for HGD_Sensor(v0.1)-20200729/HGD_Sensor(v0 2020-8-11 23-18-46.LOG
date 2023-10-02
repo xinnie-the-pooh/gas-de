@@ -1,0 +1,24 @@
+Change Component DesignItemId : Designator=U1 Old DesignItemId=LEL New DesignItemId=SGM2019
+Change Component Footprint: Designator=U1 Old Footprint=LEL New Footprint=SGM2019_SOT23-5_95P280X125-5N
+Change Component Comment : Designator=U1 Old Comment=LEL New Comment=SGM2019-3.0YN5G/TR
+Added Component: Designator=R7(R0603)
+Added Component: Designator=R8(R0603)
+Added Component: Designator=R9(R0603)
+Added Component: Designator=R10(R0603)
+Added Component: Designator=U2(LEL)
+Added Pin To Net: NetName=DGND Pin=R8-1
+Added Pin To Net: NetName=DGND Pin=U2-1
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=R8-2
+Added Net: Name=NetR7_1
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_1 Pin=R10-1
+Added Net: Name=NetR9_1
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_2 Pin=R10-2
+Added Net: Name=NetR9_2
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R7 1K/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R8 4K7/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R9 4K2/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R10 4K2/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component U2 LEL

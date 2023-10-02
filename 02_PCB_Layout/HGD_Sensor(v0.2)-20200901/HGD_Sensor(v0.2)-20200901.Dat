@@ -1,0 +1,25 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~230|Field=Description~String~Description~460|Field=Designator~String~Designator~847|Field=Footprint~String~Footprint~177|Field=Quantity~Integer~Quantity~177|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~HGD_Sensor(v0.2)-20200901.PrjPcb|ReportField=ProjectFullPath~D:\Projects\yonger\气体检测\10_harmful_gas_detector\02_PCB_Layout\HGD_Sensor(v0.2)-20200901\HGD_Sensor(v0.2)-20200901.PrjPcb|ReportField=Title~Bill of Materials For Project [HGD_Sensor(v0.2)-20200901.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~55|ReportField=ReportTime~17:24:00|ReportField=ReportDate~2021/6/25|ReportField=ReportDateTime~2021/6/25 17:24:00|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2021/6/25|ReportField=CurrentTime~17:23:56|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects\yonger\气体检测\10_harmful_gas_detector\02_PCB_Layout\HGD_Sensor(v0.2)-20200901\HGD_Sensor(v0.2)-20200901.SchDoc|ReportField=DocumentName~HGD_Sensor(v0.2)-20200901.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2021/1/21|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions:CenterHorizontal=True:CenterVertical=True:PrintScale=0.71:XCorrection=1.00:YCorrection=1.00:PrintKind=2:BorderSize=5000000:LeftOffset=0:BottomOffset=0:Orientation=2:PaperLength=1000:PaperWidth=1000:Scale=100:PaperSource=7:PrintQuality=-4:MediaType=1:DitherType=10:PaperKind=A3:PrintScaleMode=1|ReportField=ProjectName~HGD_Sensor(v0.2)-20200901.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~0|ReportField=SheetTotal~0|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~HGD_Sensor(v0.2)-20200901.PrjPcb|ReportField=DataSourceFullPath~D:\Projects\yonger\气体检测\10_harmful_gas_detector\02_PCB_Layout\HGD_Sensor(v0.2)-20200901\HGD_Sensor(v0.2)-20200901.PrjPcb
+1|1uF/25V/5%|电容|C5, C7, C9|0805|3
+2|10nF/25V/5%|电容|C6, C8, C10, C11, C14, C15, C16, C18, C19|C0603|9
+3|100nF/25V/5%|电容|C12, C17|C0603|2
+4|22uF/25V/5%|电容|C13|0805|1
+5|LED红灯|发光二极管|HL1, HL2, HL3, HL4|LED-3MM|4
+6|TMB-12A03|TMB-12A03：3.3V有源蜂鸣器|JP1|TMB-12A03|1
+7|FPC-12P|FPC-12P|JP2|FPC-1.0MM-12P-W|1
+8|200R/5%|电阻|R1, R19|R0603|2
+9|470R/5%|电阻|R5, R15|R0603|2
+10|1K/5%|电阻|R7, R20|R0603|2
+11|4K7/5%|电阻|R8, R9, R10, R12, R13|R0603|5
+12|10K/5%|电阻|R11, R16, R17, R22, R24, R25, R27|R0603|7
+13|100R/5%|电阻|R14, R26|R0603|2
+14|1M/5%|电阻|R18, R23|R0603|2
+15|47K/5%|电阻|R21|R0603|1
+16|8K2/5%|电阻|R28|R0603|1
+17|SGM2019-3.0YN5G/TR|SGM2019：Low Power, Low Dropout, RF Linear Regulators|U1|SGM2019_SOT23-5_95P280X125-5N|1
+18|MC101|MC101：可燃气体传感器|U2|MC101|1
+19|SGM8634|SGM8634：470μA, 6MHz, Rail-to-Rail I/O, CMOS Operational Amplifier|U3, U7|SGM8634_TSSOP14_65P640X120-14N|2
+20|4O2-GP_V2.0|4O2-GP_V2.0：O2传感器|U4|4O2-GP_V2.0-1.5K-3.2*2.5*5.8|1
+21|ME2-CO|ME2-CO：CO传感器|U5|ME2-CO_1.5K-3.2*2.5*5.8|1
+22|4H2S-AS_V2.0|4H2S-AS_V2.0：H2S传感器|U6|4H2S-AS_V2.0-1.5K-3.0*2.5*5.8|1
+23|MMBFJ177LT1G|MMBFJ177LT1G：P-JFET?Chopper|V1, V2|MMBFJ177LT1G_SOT-23|2
+24|S8050|NPN三极管|V3|SOT-23|1

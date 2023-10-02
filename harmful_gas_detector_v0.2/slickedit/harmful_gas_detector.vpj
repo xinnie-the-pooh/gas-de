@@ -1,0 +1,376 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+	Version="10.0"
+	VendorName="SlickEdit"
+	TemplateName="GNU C/C++"
+	WorkingDir="."
+	BuildSystem="vsbuild">
+	<Config
+		Name="Debug"
+		Type="gnuc"
+		DebugCallbackName="gdb"
+		Version="1"
+		OutputFile="%bdharmful_gas_detector.exe"
+		CompilerConfigName="Latest Version">
+		<Menu>
+			<Target
+				Name="Compile"
+				MenuCaption="&amp;Compile"
+				Dialog="_gnuc_options_form Compile"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				OutputExts="*.o"
+				SaveOption="SaveCurrent"
+				RunFromDir="%rw">
+				<Exec CmdLine='g++ -c %xup  %defd -g -o "%bd%n%oe" %i "%f"'/>
+			</Target>
+			<Target
+				Name="Link"
+				MenuCaption="&amp;Link"
+				ShowOnMenu="Never"
+				Dialog="_gnuc_options_form Link"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveCurrent"
+				RunFromDir="%rw">
+				<Exec CmdLine='g++ %xup -g -o "%o" %f %libs'/>
+			</Target>
+			<Target
+				Name="Build"
+				MenuCaption="&amp;Build"
+				Dialog="_gnuc_options_form Compile"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%(VSLICKBIN1)vsbuild" "%w" "%r" -t build'/>
+			</Target>
+			<Target
+				Name="Rebuild"
+				MenuCaption="&amp;Rebuild"
+				Dialog="_gnuc_options_form Compile"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%(VSLICKBIN1)vsbuild" "%w" "%r" -t rebuild'/>
+			</Target>
+			<Target
+				Name="Debug"
+				MenuCaption="&amp;Debug"
+				Dialog="_gnuc_options_form Run/Debug"
+				BuildFirst="1"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveNone"
+				RunFromDir="%rw">
+				<Exec CmdLine='vsdebugio -prog "%o"'/>
+			</Target>
+			<Target
+				Name="Execute"
+				MenuCaption="E&amp;xecute"
+				Dialog="_gnuc_options_form Run/Debug"
+				BuildFirst="1"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%o"'/>
+			</Target>
+			<Target
+				Name="dash"
+				MenuCaption="-"
+				Deletable="0">
+				<Exec/>
+			</Target>
+			<Target
+				Name="GNU C Options"
+				MenuCaption="GNU C &amp;Options..."
+				ShowOnMenu="HideIfNoCmdLine"
+				Deletable="0"
+				SaveOption="SaveNone">
+				<Exec
+					CmdLine="gnucoptions"
+					Type="Slick-C"/>
+			</Target>
+		</Menu>
+		<Rules Name="Compile">
+			<Rule
+				InputExts="*.ada"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gnat -g -c -o "%bd%n.o" "%f"'/>
+			</Rule>
+			<Rule
+				InputExts="*.adb"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gnat -g -c -o "%bd%n.o" "%f"'/>
+			</Rule>
+			<Rule
+				InputExts="*.f"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gfortran -c -g -o "%bd%n.o" "%f"'/>
+			</Rule>
+			<Rule
+				InputExts="*.f90"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gfortran -c -g -o "%bd%n.o" "%f"'/>
+			</Rule>
+			<Rule
+				InputExts="*.d"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gdc -c -g -o "%bd%n.o" "%f"'/>
+			</Rule>
+		</Rules>
+		<List Name="GNUC Options">
+			<Item
+				Name="LinkerOutputType"
+				Value="Executable"/>
+		</List>
+	</Config>
+	<Config
+		Name="Release"
+		Type="gnuc"
+		DebugCallbackName="gdb"
+		Version="1"
+		OutputFile="%bdharmful_gas_detector.exe"
+		CompilerConfigName="Latest Version">
+		<Menu>
+			<Target
+				Name="Compile"
+				MenuCaption="&amp;Compile"
+				Dialog="_gnuc_options_form Compile"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				OutputExts="*.o"
+				SaveOption="SaveCurrent"
+				RunFromDir="%rw">
+				<Exec CmdLine='g++ -c %xup %defd -o "%bd%n%oe" %i "%f"'/>
+			</Target>
+			<Target
+				Name="Link"
+				MenuCaption="&amp;Link"
+				ShowOnMenu="Never"
+				Dialog="_gnuc_options_form Link"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveCurrent"
+				RunFromDir="%rw">
+				<Exec CmdLine='g++ %xup -o "%o" %f %libs'/>
+			</Target>
+			<Target
+				Name="Build"
+				MenuCaption="&amp;Build"
+				Dialog="_gnuc_options_form Compile"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%(VSLICKBIN1)vsbuild" "%w" "%r" -t build'/>
+			</Target>
+			<Target
+				Name="Rebuild"
+				MenuCaption="&amp;Rebuild"
+				Dialog="_gnuc_options_form Compile"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%(VSLICKBIN1)vsbuild" "%w" "%r" -t rebuild'/>
+			</Target>
+			<Target
+				Name="Debug"
+				MenuCaption="&amp;Debug"
+				Dialog="_gnuc_options_form Run/Debug"
+				BuildFirst="1"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveNone"
+				RunFromDir="%rw">
+				<Exec CmdLine='vsdebugio -prog "%o"'/>
+			</Target>
+			<Target
+				Name="Execute"
+				MenuCaption="E&amp;xecute"
+				Dialog="_gnuc_options_form Run/Debug"
+				BuildFirst="1"
+				CaptureOutputWith="ProcessBuffer"
+				Deletable="0"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%o"'/>
+			</Target>
+			<Target
+				Name="dash"
+				MenuCaption="-"
+				Deletable="0">
+				<Exec/>
+			</Target>
+			<Target
+				Name="GNU C Options"
+				MenuCaption="GNU C &amp;Options..."
+				ShowOnMenu="HideIfNoCmdLine"
+				Deletable="0"
+				SaveOption="SaveNone">
+				<Exec
+					CmdLine="gnucoptions"
+					Type="Slick-C"/>
+			</Target>
+		</Menu>
+		<Rules Name="Compile">
+			<Rule
+				InputExts="*.ada"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gnat -O -c -o "%bd%n.o" "%f"'/>
+			</Rule>
+			<Rule
+				InputExts="*.adb"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gnat -O -c -o "%bd%n.o" "%f"'/>
+			</Rule>
+			<Rule
+				InputExts="*.f"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gfortran -O -g -o "%bd%n.o" "%f"'/>
+			</Rule>
+			<Rule
+				InputExts="*.f90"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gfortran -O -g -o "%bd%n.o" "%f"'/>
+			</Rule>
+			<Rule
+				InputExts="*.d"
+				OutputExts="*.o"
+				LinkObject="1">
+				<Exec CmdLine='gdc -c -g -o "%bd%n.o" "%f"'/>
+			</Rule>
+		</Rules>
+		<List Name="GNUC Options">
+			<Item
+				Name="LinkerOutputType"
+				Value="Executable"/>
+		</List>
+	</Config>
+	<CustomFolders>
+		<Folder
+			Name="Source Files"
+			Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.c++;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.scala;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl;*.d;*.m;*.mm;*.go;*.groovy;*.gsh"
+			GUID="{8D1BE4AA-4368-4717-8D88-27EDA935745A}"></Folder>
+		<Folder
+			Name="Header Files"
+			Filters="*.h;*.H;*.hh;*.hpp;*.hxx;*.h++;*.inc;*.sh;*.cpy;*.if"
+			GUID="{6088D448-A73F-4AC8-813C-0F170DB3E36B}"></Folder>
+		<Folder
+			Name="Resource Files"
+			Filters="*.ico;*.cur;*.dlg"
+			GUID="{937E37BC-EED5-4DEB-BBDE-DE43F2471439}"/>
+		<Folder
+			Name="Bitmaps"
+			Filters="*.bmp"
+			GUID="{BFBAE89E-B703-4E0E-B345-B0118B6A3907}"/>
+		<Folder
+			Name="Other Files"
+			Filters=""
+			GUID="{31F9A2A8-A50B-4263-96DF-5A2E4AD73EEB}"></Folder>
+	</CustomFolders>
+	<Files AutoFolders="DirectoryView">
+		<Folder Name="..">
+			<F N="../keilkilll.bat"/>
+		</Folder>
+		<Folder Name="../CMSIS">
+			<Folder Name="CoreSupport">
+				<F N="../CMSIS/CoreSupport/core_cm3.c"/>
+				<F N="../CMSIS/CoreSupport/core_cm3.h"/>
+			</Folder>
+			<Folder Name="DeviceSupport">
+				<Folder Name="startup">
+					<F N="../CMSIS/DeviceSupport/startup/startup_stm32f10x_cl.s"/>
+					<F N="../CMSIS/DeviceSupport/startup/startup_stm32f10x_hd.s"/>
+					<F N="../CMSIS/DeviceSupport/startup/startup_stm32f10x_hd_vl.s"/>
+					<F N="../CMSIS/DeviceSupport/startup/startup_stm32f10x_ld.s"/>
+					<F N="../CMSIS/DeviceSupport/startup/startup_stm32f10x_ld_vl.s"/>
+					<F N="../CMSIS/DeviceSupport/startup/startup_stm32f10x_md.s"/>
+					<F N="../CMSIS/DeviceSupport/startup/startup_stm32f10x_md_vl.s"/>
+					<F N="../CMSIS/DeviceSupport/startup/startup_stm32f10x_xl.s"/>
+				</Folder>
+				<F N="../CMSIS/DeviceSupport/stm32f10x.h"/>
+			</Folder>
+		</Folder>
+		<Folder Name="../STM32F10x_StdPeriph_Driver">
+			<Folder Name="inc">
+				<F N="../STM32F10x_StdPeriph_Driver/inc/misc.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h"/>
+				<F N="../STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h"/>
+			</Folder>
+			<Folder Name="src">
+				<F N="../STM32F10x_StdPeriph_Driver/src/misc.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c"/>
+				<F N="../STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c"/>
+			</Folder>
+		</Folder>
+		<Folder Name="../USER">
+			<F N="../USER/gs_api.c"/>
+			<F N="../USER/gs_api.h"/>
+			<F N="../USER/gs_bsp.c"/>
+			<F N="../USER/gs_bsp.h"/>
+			<F N="../USER/gs_global_para.c"/>
+			<F N="../USER/gs_global_para.h"/>
+			<F N="../USER/gs_harmful_gas_detector.c"/>
+			<F N="../USER/gs_harmful_gas_detector.h"/>
+			<F N="../USER/gs_typedef.h"/>
+			<F N="../USER/main.c"/>
+			<F N="../USER/stm32f10x_conf.h"/>
+			<F N="../USER/stm32f10x_it.c"/>
+			<F N="../USER/stm32f10x_it.h"/>
+			<F N="../USER/system_stm32f10x.c"/>
+		</Folder>
+	</Files>
+</Project>

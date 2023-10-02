@@ -1,0 +1,4 @@
+Added Component: Designator=JP5(XH2.54-2AW)
+Added Pin To Net: NetName=NetJP5_1 Pin=JP5-1
+Added Pin To Net: NetName=NetJP5_2 Pin=JP5-2
+Added Member To Class: ClassName=HGD_Update-20200515 Member=Component JP5 XH2.54-2P

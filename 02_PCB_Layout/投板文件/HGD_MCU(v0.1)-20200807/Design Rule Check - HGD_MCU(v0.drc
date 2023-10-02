@@ -1,0 +1,32 @@
+Protel Design System Design Rule Check
+PCB File : E:\A++\wypSVN\00_goodsince_studio\06_development_projects\10_harmful_gas_detector\02_PCB_Layout\Í¶°åÎÄ¼þ\HGD_MCU(v0.1)-20200807\HGD_MCU(v0.1)-20200807.PcbDoc
+Date     : 2020/8/23
+Time     : 23:43:17
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=200mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=19.685mil) (InNet('RF_IN')),(InNet('GND'))
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:01

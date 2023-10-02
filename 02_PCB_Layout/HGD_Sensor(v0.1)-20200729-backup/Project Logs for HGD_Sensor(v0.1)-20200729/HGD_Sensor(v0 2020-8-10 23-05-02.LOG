@@ -1,0 +1,16 @@
+Added Component: Designator=HL1(LED-3MM)
+Added Component: Designator=HL2(LED-3MM)
+Added Component: Designator=HL3(LED-3MM)
+Added Component: Designator=HL4(LED-3MM)
+Added Pin To Net: NetName=NetC1_1 Pin=HL1-A
+Added Pin To Net: NetName=LED1 Pin=HL1-K
+Added Pin To Net: NetName=NetC2_1 Pin=HL2-A
+Added Pin To Net: NetName=LED2 Pin=HL2-K
+Added Pin To Net: NetName=NetC3_1 Pin=HL3-A
+Added Pin To Net: NetName=LED3 Pin=HL3-K
+Added Pin To Net: NetName=NetC4_1 Pin=HL4-A
+Added Pin To Net: NetName=LED4 Pin=HL4-K
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component HL1 LEDºìµÆ
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component HL2 LEDºìµÆ
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component HL3 LEDºìµÆ
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component HL4 LEDºìµÆ

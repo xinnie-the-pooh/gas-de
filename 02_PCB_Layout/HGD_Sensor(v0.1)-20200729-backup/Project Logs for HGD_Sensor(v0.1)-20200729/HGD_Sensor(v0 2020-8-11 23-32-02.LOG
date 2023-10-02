@@ -1,0 +1,19 @@
+Added Component: Designator=C5(C0603)
+Added Component: Designator=C6(C0603)
+Added Component: Designator=C7(C0603)
+Added Pin To Net: NetName=3V3 Pin=C5-1
+Added Pin To Net: NetName=DGND Pin=C5-2
+Added Pin To Net: NetName=DGND Pin=C6-2
+Added Pin To Net: NetName=DGND Pin=C7-2
+Added Pin To Net: NetName=3V3 Pin=U1-1
+Added Pin To Net: NetName=DGND Pin=U1-2
+Added Pin To Net: NetName=3V3 Pin=U1-3
+Added Pin To Net: NetName=3V Pin=C7-1
+Added Pin To Net: NetName=3V Pin=U1-5
+Added Net: Name=3V
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=U1-4
+Added Net: Name=NetC6_1
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C5 1uF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C6 10nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C7 1uF/25V/5%

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312"?>
+<ge Byname="Customized UART Protocol2" PLCName="Customized UART Protocol2" type="PLC" Version="0.02" ID="156" logo="plc.ico">
+	<DefaultImage URL="PLC.vg"/>
+	<SupportPLC>		
+		<PLC>Modbus Compatible External Device</PLC>		                    	
+	</SupportPLC>
+	<StationNumber>
+		<Max>255</Max>
+		<Min>0</Min>
+		<Default>1</Default>
+	</StationNumber>
+	<Droit DefaultID="0" Position="Slave"/>
+	<SerialPorts>
+		<SerialPort SystemID="23">
+			<DefaultParam>
+				<Type>RS232</Type>
+				<Baud>9600</Baud>
+				<ByteSize>8</ByteSize>
+				<StopBits>1</StopBits>
+				<Parity>2</Parity>
+			</DefaultParam>
+			<RecommendParam>
+				<Type>RS232</Type>
+				<Baud>9600</Baud>
+				<ByteSize>8</ByteSize>
+				<StopBits>1</StopBits>
+				<Parity>2</Parity>
+			</RecommendParam>
+			<StationNo>1</StationNo>
+			<ProtocolTimeout1>200</ProtocolTimeout1>
+			<ProtocolTimeout2>3</ProtocolTimeout2>
+			<PLCResponceTimeout>1</PLCResponceTimeout>
+			<PackegMaxWord>122</PackegMaxWord>
+			<PackegMaxBit>1952</PackegMaxBit>
+			<WordsBrokeInterval>2</WordsBrokeInterval>
+			<BitsBrokeInterval>2</BitsBrokeInterval>
+		</SerialPort>
+	</SerialPorts>
+	<REG_ADDRs>
+		
+	</REG_ADDRs>
+</ge>

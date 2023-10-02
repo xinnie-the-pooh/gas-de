@@ -1,0 +1,20 @@
+Added Component: Designator=P1(HDR1X2)
+Added Component: Designator=U5(SOP-8_L4.9-W3.9-P1.27-LS6.0-BL)
+Added Pin To Net: NetName=+5V Pin=U5-4
+Added Pin To Net: NetName=DGND Pin=U5-6
+Added Pin To Net: NetName=DGND Pin=U5-7
+Added Pin To Net: NetName=MOTOR_INA Pin=U5-2
+Added Net: Name=MOTOR_INA
+Added Pin To Net: NetName=MOTOR_INB Pin=U5-3
+Added Net: Name=MOTOR_INB
+Added Pin To Net: NetName=NetP1_1 Pin=P1-1
+Added Pin To Net: NetName=NetP1_1 Pin=U5-8
+Added Net: Name=NetP1_1
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_2 Pin=U5-5
+Added Net: Name=NetP1_2
+Change Class Name : Old Net Name=HGD_MCU(v0.2)-20200901 New Net Name=HGD_Update-20200515
+Added Member To Class: ClassName=HGD_Update-20200515 Member=Component P1 Header 2
+Added Member To Class: ClassName=HGD_Update-20200515 Member=Component U5 TC118S
+Change Room Name: Old Name=HGD_MCU(v0.2)-20200901 New Name=HGD_Update-20200515
+Change Room Scope: Old Scope=InComponentClass('HGD_MCU(v0.2)-20200901') New Scope=InComponentClass('HGD_Update-20200515')

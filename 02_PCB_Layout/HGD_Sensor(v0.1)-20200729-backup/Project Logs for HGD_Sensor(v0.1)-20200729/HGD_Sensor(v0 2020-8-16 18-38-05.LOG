@@ -1,0 +1,210 @@
+Removed Pin From Net: NetName=DGND Pin=R8-1
+Removed Pin From Net: NetName=NetR9_2 Pin=R9-2
+Removed Pin From Net: NetName=NetR9_2 Pin=R10-2
+Change Component DesignItemId : Designator=U2 Old DesignItemId=LEL New DesignItemId=MC101
+Change Component Footprint: Designator=C5 Old Footprint=C0603 New Footprint=0805
+Change Component Footprint: Designator=C7 Old Footprint=C0603 New Footprint=0805
+Change Component Comment : Designator=R1 Old Comment=2K/5% New Comment=200R/5%
+Change Component Comment : Designator=R2 Old Comment=2K/5% New Comment=200R/5%
+Change Component Comment : Designator=R3 Old Comment=2K/5% New Comment=200R/5%
+Change Component Comment : Designator=R4 Old Comment=2K/5% New Comment=200R/5%
+Change Component Comment : Designator=R9 Old Comment=4K2/5% New Comment=4K7/5%
+Change Component Comment : Designator=R10 Old Comment=4K2/5% New Comment=4K7/5%
+Change Component Comment : Designator=U1 Old Comment=SGM2019-3.0YN5G/TR New Comment=MC101
+Change Component Description : Designator=U2 Old Description=LEL：可燃气体传感器 New Description=MC101：可燃气体传感器
+Added Component: Designator=C8(C0603)
+Added Component: Designator=C9(0805)
+Added Component: Designator=C10(C0603)
+Added Component: Designator=C11(C0603)
+Added Component: Designator=C12(C0603)
+Added Component: Designator=C13(0805)
+Added Component: Designator=C14(C0603)
+Added Component: Designator=C15(C0603)
+Added Component: Designator=C16(C0603)
+Added Component: Designator=C17(C0603)
+Added Component: Designator=C18(C0603)
+Added Component: Designator=C19(C0603)
+Added Component: Designator=JP2(FPC-1.0MM-12P-W)
+Added Component: Designator=R11(R0603)
+Added Component: Designator=R12(R0603)
+Added Component: Designator=R13(R0603)
+Added Component: Designator=R14(R0603)
+Added Component: Designator=R15(R0603)
+Added Component: Designator=R16(R0603)
+Added Component: Designator=R17(R0603)
+Added Component: Designator=R18(R0603)
+Added Component: Designator=R19(R0603)
+Added Component: Designator=R20(R0603)
+Added Component: Designator=R21(R0603)
+Added Component: Designator=R22(R0603)
+Added Component: Designator=R23(R0603)
+Added Component: Designator=R24(R0603)
+Added Component: Designator=R25(R0603)
+Added Component: Designator=R26(R0603)
+Added Component: Designator=U3(SGM8634_TSSOP14_65P640X120-14N)
+Added Component: Designator=U4(4O2-GP_V2.0-1.5K-3.2*2.5*5.8)
+Added Component: Designator=U5(ME2-CO_1.5K-3.2*2.5*5.8)
+Added Component: Designator=U6(4H2S-AS_V2.0-1.5K-3.0*2.5*5.8)
+Added Component: Designator=U7(SGM8634_TSSOP14_65P640X120-14N)
+Added Component: Designator=V1(SOT-23-MOS)
+Added Component: Designator=V2(SOT-23-MOS)
+Added Pin To Net: NetName=DGND Pin=C8-2
+Added Pin To Net: NetName=NetR9_2 Pin=C9-1
+Added Pin To Net: NetName=NetR9_2 Pin=C10-1
+Added Pin To Net: NetName=DGND Pin=C10-2
+Added Pin To Net: NetName=DGND Pin=C11-2
+Added Pin To Net: NetName=DGND Pin=C12-1
+Added Pin To Net: NetName=3V Pin=C12-2
+Added Pin To Net: NetName=DGND Pin=C14-2
+Added Pin To Net: NetName=3V3 Pin=C17-2
+Added Pin To Net: NetName=DGND Pin=C19-2
+Added Pin To Net: NetName=3V3 Pin=JP2-1
+Added Pin To Net: NetName=DGND Pin=JP2-2
+Added Pin To Net: NetName=BEEP Pin=JP2-10
+Added Pin To Net: NetName=3V Pin=R9-2
+Added Pin To Net: NetName=3V Pin=R10-2
+Added Pin To Net: NetName=3V3 Pin=R12-2
+Added Pin To Net: NetName=DGND Pin=R13-2
+Added Pin To Net: NetName=NetR9_2 Pin=R15-2
+Added Pin To Net: NetName=NetR9_2 Pin=R16-2
+Added Pin To Net: NetName=3V3 Pin=R18-2
+Added Pin To Net: NetName=3V3 Pin=R23-2
+Added Pin To Net: NetName=3V Pin=U2-3
+Added Pin To Net: NetName=NetR9_2 Pin=U3-2
+Added Pin To Net: NetName=3V Pin=U3-4
+Added Pin To Net: NetName=DGND Pin=U3-11
+Added Pin To Net: NetName=NetR9_1 Pin=U3-12
+Added Pin To Net: NetName=NetR7_1 Pin=U3-13
+Added Pin To Net: NetName=3V3 Pin=U7-4
+Added Pin To Net: NetName=DGND Pin=U7-11
+Change Net Name : Old Net Name=NetR9_2 New Net Name=NetC9_1
+Added Pin To Net: NetName=ADC_CO Pin=C14-1
+Added Pin To Net: NetName=ADC_CO Pin=JP2-5
+Added Pin To Net: NetName=ADC_CO Pin=R22-1
+Added Net: Name=ADC_CO
+Added Pin To Net: NetName=ADC_H2S Pin=C18-1
+Added Pin To Net: NetName=ADC_H2S Pin=C19-1
+Added Pin To Net: NetName=ADC_H2S Pin=JP2-6
+Added Pin To Net: NetName=ADC_H2S Pin=R26-2
+Added Pin To Net: NetName=ADC_H2S Pin=U7-7
+Added Net: Name=ADC_H2S
+Added Pin To Net: NetName=ADC_LEL Pin=C8-1
+Added Pin To Net: NetName=ADC_LEL Pin=JP2-7
+Added Pin To Net: NetName=ADC_LEL Pin=R11-1
+Added Net: Name=ADC_LEL
+Added Pin To Net: NetName=ADC_O2 Pin=C11-1
+Added Pin To Net: NetName=ADC_O2 Pin=JP2-4
+Added Pin To Net: NetName=ADC_O2 Pin=R17-1
+Added Net: Name=ADC_O2
+Added Pin To Net: NetName=AGND Pin=R14-1
+Added Pin To Net: NetName=AGND Pin=R20-2
+Added Pin To Net: NetName=AGND Pin=U3-3
+Added Pin To Net: NetName=AGND Pin=U3-5
+Added Pin To Net: NetName=AGND Pin=U3-8
+Added Pin To Net: NetName=AGND Pin=U3-9
+Added Pin To Net: NetName=AGND Pin=U4-2
+Added Pin To Net: NetName=AGND Pin=U5-2
+Added Pin To Net: NetName=AGND Pin=U7-3
+Added Pin To Net: NetName=AGND Pin=U7-5
+Added Pin To Net: NetName=AGND Pin=V1-S
+Added Net: Name=AGND
+Added Pin To Net: NetName=H2S_C Pin=C15-1
+Added Pin To Net: NetName=H2S_C Pin=C16-2
+Added Pin To Net: NetName=H2S_C Pin=C18-2
+Added Pin To Net: NetName=H2S_C Pin=R26-1
+Added Pin To Net: NetName=H2S_C Pin=U6-2
+Added Pin To Net: NetName=H2S_C Pin=U6-3
+Added Pin To Net: NetName=H2S_C Pin=U7-1
+Added Pin To Net: NetName=H2S_C Pin=U7-6
+Added Pin To Net: NetName=H2S_C Pin=V2-S
+Added Net: Name=H2S_C
+Added Pin To Net: NetName=H2S_R Pin=R25-2
+Added Pin To Net: NetName=H2S_R Pin=U6-1
+Added Pin To Net: NetName=H2S_R Pin=V2-D
+Added Net: Name=H2S_R
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=NetC9_2 Pin=R16-1
+Added Pin To Net: NetName=NetC9_2 Pin=R17-2
+Added Pin To Net: NetName=NetC9_2 Pin=U3-1
+Added Net: Name=NetC9_2
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=NetC13_1 Pin=R19-1
+Added Pin To Net: NetName=NetC13_1 Pin=R21-1
+Added Pin To Net: NetName=NetC13_1 Pin=U3-6
+Added Net: Name=NetC13_1
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=NetC13_2 Pin=R21-2
+Added Pin To Net: NetName=NetC13_2 Pin=R22-2
+Added Pin To Net: NetName=NetC13_2 Pin=U3-7
+Added Net: Name=NetC13_2
+Added Pin To Net: NetName=NetC15_2 Pin=C15-2
+Added Pin To Net: NetName=NetC15_2 Pin=R24-2
+Added Pin To Net: NetName=NetC15_2 Pin=R25-1
+Added Net: Name=NetC15_2
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Pin To Net: NetName=NetC16_1 Pin=R24-1
+Added Pin To Net: NetName=NetC16_1 Pin=U7-2
+Added Net: Name=NetC16_1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR7_2 Pin=U2-2
+Added Pin To Net: NetName=NetR7_2 Pin=U2-4
+Added Net: Name=NetR7_2
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=R11-2
+Added Pin To Net: NetName=NetR8_1 Pin=U3-14
+Added Net: Name=NetR8_1
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=R13-1
+Added Pin To Net: NetName=NetR12_1 Pin=U3-10
+Added Net: Name=NetR12_1
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR14_2 Pin=R15-1
+Added Pin To Net: NetName=NetR14_2 Pin=U4-1
+Added Net: Name=NetR14_2
+Added Pin To Net: NetName=NetR18_1 Pin=R18-1
+Added Pin To Net: NetName=NetR18_1 Pin=V1-G
+Added Net: Name=NetR18_1
+Added Pin To Net: NetName=NetR19_2 Pin=R19-2
+Added Pin To Net: NetName=NetR19_2 Pin=R20-1
+Added Pin To Net: NetName=NetR19_2 Pin=U5-1
+Added Pin To Net: NetName=NetR19_2 Pin=V1-D
+Added Net: Name=NetR19_2
+Added Pin To Net: NetName=NetR23_1 Pin=R23-1
+Added Pin To Net: NetName=NetR23_1 Pin=V2-G
+Added Net: Name=NetR23_1
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C8 10nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C9 1uF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C10 1uF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C11 10nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C12 100nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C13 1uF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C14 10nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C15 10nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C16 10nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C17 100nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C18 10nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component C19 10nF/25V/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component JP2 FPC-12P
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R11 10K/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R12 4K7/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R13 4K7/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R14 100R/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R15 470R/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R16 10K/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R17 10K/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R18 1M/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R19 200R/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R20 200R/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R21 47K/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R22 10K/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R23 1M/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R24 1K/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R25 1K/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component R26 100R/5%
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component U3 SGM8634
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component U4 4O2-GP_V2.0
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component U5 ME2-CO
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component U6 4H2S-AS_V2.0
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component U7 SGM8634
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component V1 MOSFET_P
+Added Member To Class: ClassName=HGD_Sensor(v0.1)-20200729 Member=Component V2 MOSFET_P

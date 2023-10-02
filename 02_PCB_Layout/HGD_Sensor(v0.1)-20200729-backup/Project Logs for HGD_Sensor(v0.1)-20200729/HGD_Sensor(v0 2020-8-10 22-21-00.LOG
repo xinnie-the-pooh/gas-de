@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=Q1 Old DesignItemId=S9012 New DesignItemId=S8550
+Change Component Footprint: Designator=Q1 Old Footprint=TO-92 New Footprint=S8550_SOT-23_95P245X110-3N
+Change Component Comment : Designator=R5 Old Comment=2K/5% New Comment=4K7/5%
+Change Component Comment : Designator=R6 Old Comment=2K/5% New Comment=100R/5%
+Added Pin To Net: NetName=BEEP Pin=R5-1
+Added Net: Name=BEEP
